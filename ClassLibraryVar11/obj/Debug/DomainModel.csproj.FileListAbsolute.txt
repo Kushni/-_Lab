@@ -1,0 +1,13 @@
+C:\Users\prost\OneDrive\Документи\Лабы\АППЗ\Lab02\ClassLibraryVar11\bin\Debug\DomainModel.dll
+C:\Users\prost\OneDrive\Документи\Лабы\АППЗ\Lab02\ClassLibraryVar11\bin\Debug\DomainModel.pdb
+C:\Users\prost\OneDrive\Документи\Лабы\АППЗ\Lab02\ClassLibraryVar11\obj\Debug\DomainModel.csproj.CoreCompileInputs.cache
+C:\Users\prost\OneDrive\Документи\Лабы\АППЗ\Lab02\ClassLibraryVar11\obj\Debug\DomainModel.dll
+C:\Users\prost\OneDrive\Документи\Лабы\АППЗ\Lab02\ClassLibraryVar11\obj\Debug\DomainModel.pdb
+C:\Users\prost\OneDrive\Документи\Лабы\АППЗ\Lab02\ClassLibraryVar11\bin\Debug\System.Memory.dll
+C:\Users\prost\OneDrive\Документи\Лабы\АППЗ\Lab02\ClassLibraryVar11\bin\Debug\System.Text.Json.dll
+C:\Users\prost\OneDrive\Документи\Лабы\АППЗ\Lab02\ClassLibraryVar11\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\prost\OneDrive\Документи\Лабы\АППЗ\Lab02\ClassLibraryVar11\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\prost\OneDrive\Документи\Лабы\АППЗ\Lab02\ClassLibraryVar11\bin\Debug\System.Buffers.dll
+C:\Users\prost\OneDrive\Документи\Лабы\АППЗ\Lab02\ClassLibraryVar11\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\prost\OneDrive\Документи\Лабы\АППЗ\Lab02\ClassLibraryVar11\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\prost\OneDrive\Документи\Лабы\АППЗ\Lab02\ClassLibraryVar11\obj\Debug\DomainModel.csproj.CopyComplete
