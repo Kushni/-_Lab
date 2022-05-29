@@ -2,6 +2,26 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.7.2": {
+      "Aspose.Cells/22.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Aspose.Cells.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Aspose.Cells.dll": {}
+        }
+      },
+      "Aspose.Words/22.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Aspose.Words.Pdf2Word.dll": {},
+          "lib/net461/Aspose.Words.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Aspose.Words.Pdf2Word.dll": {},
+          "lib/net461/Aspose.Words.dll": {}
+        }
+      },
       "Microsoft.Office.Interop.Excel/15.0.4795.1000": {
         "type": "package",
         "compile": {
@@ -22,6 +42,26 @@
       }
     },
     ".NETFramework,Version=v4.7.2/win": {
+      "Aspose.Cells/22.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Aspose.Cells.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Aspose.Cells.dll": {}
+        }
+      },
+      "Aspose.Words/22.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Aspose.Words.Pdf2Word.dll": {},
+          "lib/net461/Aspose.Words.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Aspose.Words.Pdf2Word.dll": {},
+          "lib/net461/Aspose.Words.dll": {}
+        }
+      },
       "Microsoft.Office.Interop.Excel/15.0.4795.1000": {
         "type": "package",
         "compile": {
@@ -42,6 +82,26 @@
       }
     },
     ".NETFramework,Version=v4.7.2/win-x64": {
+      "Aspose.Cells/22.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Aspose.Cells.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Aspose.Cells.dll": {}
+        }
+      },
+      "Aspose.Words/22.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Aspose.Words.Pdf2Word.dll": {},
+          "lib/net461/Aspose.Words.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Aspose.Words.Pdf2Word.dll": {},
+          "lib/net461/Aspose.Words.dll": {}
+        }
+      },
       "Microsoft.Office.Interop.Excel/15.0.4795.1000": {
         "type": "package",
         "compile": {
@@ -62,6 +122,26 @@
       }
     },
     ".NETFramework,Version=v4.7.2/win-x86": {
+      "Aspose.Cells/22.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Aspose.Cells.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Aspose.Cells.dll": {}
+        }
+      },
+      "Aspose.Words/22.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Aspose.Words.Pdf2Word.dll": {},
+          "lib/net461/Aspose.Words.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Aspose.Words.Pdf2Word.dll": {},
+          "lib/net461/Aspose.Words.dll": {}
+        }
+      },
       "Microsoft.Office.Interop.Excel/15.0.4795.1000": {
         "type": "package",
         "compile": {
@@ -83,6 +163,70 @@
     }
   },
   "libraries": {
+    "Aspose.Cells/22.5.0": {
+      "sha512": "ufs/x8W44a+fr8UES5/Z3ywpZ4cGORqZ6MCbEIWY3gCGnJU2Kz0/ZZmcQfsAu1brFfLIJoPFw5kF1bf//2C/ug==",
+      "type": "package",
+      "path": "aspose.cells/22.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Help/Aspose.Cells For .NET Documentation.chm",
+        "Help/Aspose.Cells.GridJs for .NETSTANDARD Documentation.chm",
+        "License/Aspose_End-User-License-Agreement.txt",
+        "License/thirdpartylicenses.Aspose.Cells.for.NET.pdf",
+        "aspose.cells.22.5.0.nupkg.sha512",
+        "aspose.cells.nuspec",
+        "images/aspose_cells-for-net.png",
+        "lib/MonoAndroid44/Aspose.Cells.dll",
+        "lib/MonoAndroid44/Aspose.Cells.xml",
+        "lib/net20/Aspose.Cells.dll",
+        "lib/net20/Aspose.Cells.xml",
+        "lib/net35/Aspose.Cells.dll",
+        "lib/net35/Aspose.Cells.xml",
+        "lib/net40-client/Aspose.Cells.dll",
+        "lib/net40-client/Aspose.Cells.xml",
+        "lib/net40/Aspose.Cells.dll",
+        "lib/net40/Aspose.Cells.xml",
+        "lib/net50/Aspose.Cells.dll",
+        "lib/net50/Aspose.Cells.xml",
+        "lib/net60/Aspose.Cells.dll",
+        "lib/net60/Aspose.Cells.xml",
+        "lib/netstandard20/Aspose.Cells.dll",
+        "lib/netstandard20/Aspose.Cells.xml",
+        "lib/xamarinios10/Aspose.Cells.dll",
+        "lib/xamarinios10/Aspose.Cells.xml"
+      ]
+    },
+    "Aspose.Words/22.5.0": {
+      "sha512": "/8UmO25mlfPTpF+zXFqqgyKOos8cQOgUS6QGriVjBBe4FRrCP9aYoo93Z0Lotr4vMX3/EI6xSG/4LEA/JEZwqg==",
+      "type": "package",
+      "path": "aspose.words/22.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Help/Aspose.Words Documentation.url",
+        "Images/aspose_words-for-net.png",
+        "License/Aspose_End-User-License-Agreement.txt",
+        "License/thirdpartylicenses-Aspose.Words for .NET.pdf",
+        "aspose.words.22.5.0.nupkg.sha512",
+        "aspose.words.nuspec",
+        "lib/net35-client/Aspose.Words.dll",
+        "lib/net35-client/Aspose.Words.xml",
+        "lib/net40-client/Aspose.Words.dll",
+        "lib/net40-client/Aspose.Words.xml",
+        "lib/net40/Aspose.Words.dll",
+        "lib/net40/Aspose.Words.xml",
+        "lib/net461/Aspose.Words.Pdf2Word.dll",
+        "lib/net461/Aspose.Words.dll",
+        "lib/net461/Aspose.Words.xml",
+        "lib/net6.0/Aspose.Words.Pdf2Word.dll",
+        "lib/net6.0/Aspose.Words.dll",
+        "lib/net6.0/Aspose.Words.xml",
+        "lib/netstandard2.0/Aspose.Words.Pdf2Word.dll",
+        "lib/netstandard2.0/Aspose.Words.dll",
+        "lib/netstandard2.0/Aspose.Words.xml"
+      ]
+    },
     "Microsoft.Office.Interop.Excel/15.0.4795.1000": {
       "sha512": "DfceS96ustwfL8EOJNNRtpk6b0RylhjNpgeeemuvi9X4GYks2UTeAimjSrdFEfuqRo5ibZ4Sd0gJIeDr9gMa6Q==",
       "type": "package",
@@ -110,6 +254,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
+      "Aspose.Cells >= 22.5.0",
+      "Aspose.Words >= 22.5.0",
       "Microsoft.Office.Interop.Excel >= 15.0.4795.1000",
       "Microsoft.Office.Interop.Word >= 15.0.4797.1003"
     ]
@@ -141,6 +287,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "F:\\MyNuGet": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -152,6 +299,14 @@
     "frameworks": {
       "net472": {
         "dependencies": {
+          "Aspose.Cells": {
+            "target": "Package",
+            "version": "[22.5.0, )"
+          },
+          "Aspose.Words": {
+            "target": "Package",
+            "version": "[22.5.0, )"
+          },
           "Microsoft.Office.Interop.Excel": {
             "target": "Package",
             "version": "[15.0.4795.1000, )"

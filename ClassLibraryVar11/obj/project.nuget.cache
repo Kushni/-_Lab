@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "HjFZUgrpfz6v3LgyNIuNyAlTRDtIZsTS+hwWmFF1dEi7Jg++zOOJHz+7mmIAe1wYm/hND3aY7XHnSJQChuuDfQ==",
+  "dgSpecHash": "UYlVdbXqEE8bEvci/rBw+jqOq7SbutvOokkNeR3mjXPeOtc5IM1nIvt+WaglUecr9SDhc6Z6L4j8R3PIu94s9w==",
   "success": true,
   "projectFilePath": "C:\\Users\\prost\\OneDrive\\Документи\\GitHub\\-_Lab\\ClassLibraryVar11\\DomainModel.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\prost\\.nuget\\packages\\aspose.cells\\22.5.0\\aspose.cells.22.5.0.nupkg.sha512",
+    "C:\\Users\\prost\\.nuget\\packages\\aspose.words\\22.5.0\\aspose.words.22.5.0.nupkg.sha512",
     "C:\\Users\\prost\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1000\\microsoft.office.interop.excel.15.0.4795.1000.nupkg.sha512",
     "C:\\Users\\prost\\.nuget\\packages\\microsoft.office.interop.word\\15.0.4797.1003\\microsoft.office.interop.word.15.0.4797.1003.nupkg.sha512"
   ],

@@ -8,6 +8,10 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
+using Aspose.Cells;
+using Aspose.Cells.Utility;
+using Aspose.Words.Pdf2Word;
+using Aspose.Words;
 
 namespace DomainModel
 {
@@ -351,4 +355,89 @@ namespace DomainModel
 
     }
 
+}
+
+namespace DomainModel
+{
+    public partial class Storage
+    {
+
+        public void ConvertToExcel()
+        {
+
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+
+            saveFileDialog.Filter = "Excel |*.xlsx";
+
+            if (saveFileDialog.ShowDialog() == DialogResult.Cancel) return;
+
+            string filename = saveFileDialog.FileName;
+
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = (Worksheet)workbook.Worksheets[0];
+
+            string jsonInput = JsonSerializer.Serialize(db);
+
+            JsonLayoutOptions options = new JsonLayoutOptions();
+            options.ArrayAsTable = true;
+
+            JsonUtility.ImportData(jsonInput, worksheet.Cells, 3, 3, options);
+
+            workbook.Save(filename);
+
+            //Excel.Application xlApp = new Excel.ApplicationClass();
+            //Excel.Workbook xlBook = xlApp.Workbooks.Add(XlWBATemplate.xlWBATWorksheet);
+            //Excel.Worksheet xlSheet = (Excel.Worksheet)xlBook.Worksheets.get_Item(1);
+
+            //xlSheet.Activate();
+        }
+
+        public void ConvertToWord()
+        {
+            string filename;
+
+            using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+            {
+
+                saveFileDialog.Filter = "Word Documents|*.docx";
+
+                if (saveFileDialog.ShowDialog() == DialogResult.Cancel) return;
+
+                filename = saveFileDialog.FileName;
+            }
+
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = (Worksheet)workbook.Worksheets[0];
+
+            string jsonInput = JsonSerializer.Serialize(db);
+
+            JsonUtility.ImportData(jsonInput, worksheet.Cells, 0, 0, new JsonLayoutOptions());
+
+            CreateFile("output.pdf");
+
+            Aspose.Words.Pdf2Word.PdfDocumentReaderPlugin pdf2Word = new PdfDocumentReaderPlugin();
+
+            workbook.Save("output.pdf", Aspose.Cells.SaveFormat.Pdf);
+
+            var document = new Document("output.pdf");
+
+
+            document.Save(filename, Aspose.Words.SaveFormat.Docx);
+
+            //SaveDocument(document, filename);
+
+        }
+
+        private void CreateFile(string filename)
+        {
+            using (FileStream file = new FileStream(filename, FileMode.Create))
+            {
+                file.Close();
+            }
+        }
+
+        private void SaveDocument (Document document, string filename)
+        {
+        }
+    }
 }

@@ -52,5 +52,15 @@ namespace DesktopApp
         {
             Storage.Instance.Save();
         }
+
+        private void ConvertToWord_Click(object sender, EventArgs e)
+        {
+            Storage.Instance.ConvertToWord();
+        }
+
+        private void ConvertToExcel_Click(object sender, EventArgs e)
+        {
+            Storage.Instance.ConvertToExcel();
+        }
     }
 }

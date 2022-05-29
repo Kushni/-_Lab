@@ -27,6 +27,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "F:\\MyNuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +39,14 @@
       "frameworks": {
         "net472": {
           "dependencies": {
+            "Aspose.Cells": {
+              "target": "Package",
+              "version": "[22.5.0, )"
+            },
+            "Aspose.Words": {
+              "target": "Package",
+              "version": "[22.5.0, )"
+            },
             "Microsoft.Office.Interop.Excel": {
               "target": "Package",
               "version": "[15.0.4795.1000, )"
