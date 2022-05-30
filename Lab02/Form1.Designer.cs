@@ -36,10 +36,10 @@ namespace DesktopApp
             this.OpenFile = new System.Windows.Forms.ToolStripMenuItem();
             this.SaveFile = new System.Windows.Forms.ToolStripMenuItem();
             this.SaceFileAs = new System.Windows.Forms.ToolStripMenuItem();
-            this.allViewer1 = new UserInteface.AllViewer();
             this.конвертуватиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ConvertToWord = new System.Windows.Forms.ToolStripMenuItem();
             this.ConvertToExcel = new System.Windows.Forms.ToolStripMenuItem();
+            this.allViewer1 = new UserInteface.AllViewer();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,14 +51,14 @@ namespace DesktopApp
             this.FileOptions});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1073, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1073, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // OnOptions
             // 
             this.OnOptions.Name = "OnOptions";
-            this.OnOptions.Size = new System.Drawing.Size(75, 26);
+            this.OnOptions.Size = new System.Drawing.Size(75, 24);
             this.OnOptions.Text = "Options";
             this.OnOptions.Click += new System.EventHandler(this.OnOptions_Click);
             // 
@@ -71,43 +71,36 @@ namespace DesktopApp
             this.SaceFileAs,
             this.конвертуватиToolStripMenuItem});
             this.FileOptions.Name = "FileOptions";
-            this.FileOptions.Size = new System.Drawing.Size(46, 26);
+            this.FileOptions.Size = new System.Drawing.Size(46, 24);
             this.FileOptions.Text = "File";
             // 
             // OpenLast
             // 
             this.OpenLast.Name = "OpenLast";
-            this.OpenLast.Size = new System.Drawing.Size(224, 26);
+            this.OpenLast.Size = new System.Drawing.Size(193, 26);
             this.OpenLast.Text = "Open Last Save";
             this.OpenLast.Click += new System.EventHandler(this.OpenLast_Click);
             // 
             // OpenFile
             // 
             this.OpenFile.Name = "OpenFile";
-            this.OpenFile.Size = new System.Drawing.Size(224, 26);
+            this.OpenFile.Size = new System.Drawing.Size(193, 26);
             this.OpenFile.Text = "Open";
             this.OpenFile.Click += new System.EventHandler(this.OpenFile_Click);
             // 
             // SaveFile
             // 
             this.SaveFile.Name = "SaveFile";
-            this.SaveFile.Size = new System.Drawing.Size(224, 26);
+            this.SaveFile.Size = new System.Drawing.Size(193, 26);
             this.SaveFile.Text = "Save";
             this.SaveFile.Click += new System.EventHandler(this.SaveFile_Click);
             // 
             // SaceFileAs
             // 
             this.SaceFileAs.Name = "SaceFileAs";
-            this.SaceFileAs.Size = new System.Drawing.Size(224, 26);
+            this.SaceFileAs.Size = new System.Drawing.Size(193, 26);
             this.SaceFileAs.Text = "Save As";
             this.SaceFileAs.Click += new System.EventHandler(this.SaceFileAs_Click);
-            // 
-            // allViewer1
-            // 
-            this.allViewer1.Location = new System.Drawing.Point(0, 38);
-            this.allViewer1.Name = "allViewer1";
-            this.allViewer1.Size = new System.Drawing.Size(1061, 500);
-            this.allViewer1.TabIndex = 0;
             // 
             // конвертуватиToolStripMenuItem
             // 
@@ -115,22 +108,29 @@ namespace DesktopApp
             this.ConvertToWord,
             this.ConvertToExcel});
             this.конвертуватиToolStripMenuItem.Name = "конвертуватиToolStripMenuItem";
-            this.конвертуватиToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.конвертуватиToolStripMenuItem.Size = new System.Drawing.Size(193, 26);
             this.конвертуватиToolStripMenuItem.Text = "Конвертувати";
             // 
             // ConvertToWord
             // 
             this.ConvertToWord.Name = "ConvertToWord";
-            this.ConvertToWord.Size = new System.Drawing.Size(224, 26);
+            this.ConvertToWord.Size = new System.Drawing.Size(151, 26);
             this.ConvertToWord.Text = "До Word";
             this.ConvertToWord.Click += new System.EventHandler(this.ConvertToWord_Click);
             // 
             // ConvertToExcel
             // 
             this.ConvertToExcel.Name = "ConvertToExcel";
-            this.ConvertToExcel.Size = new System.Drawing.Size(224, 26);
+            this.ConvertToExcel.Size = new System.Drawing.Size(151, 26);
             this.ConvertToExcel.Text = "До Excel";
             this.ConvertToExcel.Click += new System.EventHandler(this.ConvertToExcel_Click);
+            // 
+            // allViewer1
+            // 
+            this.allViewer1.Location = new System.Drawing.Point(0, 38);
+            this.allViewer1.Name = "allViewer1";
+            this.allViewer1.Size = new System.Drawing.Size(1061, 500);
+            this.allViewer1.TabIndex = 0;
             // 
             // Form1
             // 

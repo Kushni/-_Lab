@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "pYISmsC96tJ+ZQDOXzb2fkTs6EEnbQAHWWMaCneok5JknCP4ZK8oHjNJTp3c6hE/EFg6hyJC7arY27ZvnMURDw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\prost\\OneDrive\\Документи\\GitHub\\-_Lab\\WindowsFormsControlLibraryVar11\\UserInterface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\prost\\.nuget\\packages\\aspose.cells\\22.5.0\\aspose.cells.22.5.0.nupkg.sha512",
+    "C:\\Users\\prost\\.nuget\\packages\\aspose.words\\22.5.0\\aspose.words.22.5.0.nupkg.sha512",
+    "C:\\Users\\prost\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1000\\microsoft.office.interop.excel.15.0.4795.1000.nupkg.sha512",
+    "C:\\Users\\prost\\.nuget\\packages\\microsoft.office.interop.word\\15.0.4797.1003\\microsoft.office.interop.word.15.0.4797.1003.nupkg.sha512"
+  ],
+  "logs": []
+}

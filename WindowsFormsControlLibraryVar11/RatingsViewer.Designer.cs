@@ -304,7 +304,7 @@ namespace UserInteface
         internal System.Windows.Forms.BindingNavigator ratingsBindingNavigator;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         internal System.Windows.Forms.BindingSource bsStudentRegistry;
-        private System.Windows.Forms.DataGridView ratingsDataGridView;
+        internal System.Windows.Forms.DataGridView ratingsDataGridView;
         private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;

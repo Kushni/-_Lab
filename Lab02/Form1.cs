@@ -46,21 +46,25 @@ namespace DesktopApp
         private void SaveFile_Click(object sender, EventArgs e)
         {
             Storage.Instance.SaveLast();
+            allViewer1.ResetBindingSourses();
         }
 
         private void SaceFileAs_Click(object sender, EventArgs e)
         {
             Storage.Instance.Save();
+            allViewer1.ResetBindingSourses();
         }
 
         private void ConvertToWord_Click(object sender, EventArgs e)
         {
-            Storage.Instance.ConvertToWord();
+            allViewer1.ExportToWord();
+            //Storage.Instance.ConvertToWord();
         }
 
         private void ConvertToExcel_Click(object sender, EventArgs e)
         {
-            Storage.Instance.ConvertToExcel();
+            allViewer1.ExportToExcel();
+            //Storage.Instance.ConvertToExcel();
         }
     }
 }

@@ -56,6 +56,7 @@ namespace UserInteface
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.GroupsViewer1);
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
@@ -71,7 +72,7 @@ namespace UserInteface
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1053, 403);
+            this.tabPage2.Size = new System.Drawing.Size(1053, 493);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Студенти";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -81,7 +82,7 @@ namespace UserInteface
             this.tabPage3.Controls.Add(this.ratings1);
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1053, 403);
+            this.tabPage3.Size = new System.Drawing.Size(1053, 493);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Оцінки";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -89,7 +90,7 @@ namespace UserInteface
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(210, 528);
+            this.label1.Location = new System.Drawing.Point(476, 67);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 17);
             this.label1.TabIndex = 1;
@@ -120,16 +121,15 @@ namespace UserInteface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.tabControl1);
             this.Name = "AllViewer";
             this.Size = new System.Drawing.Size(1148, 560);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

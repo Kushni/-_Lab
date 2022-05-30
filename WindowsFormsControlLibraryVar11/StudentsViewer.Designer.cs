@@ -304,7 +304,7 @@ namespace UserInteface
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.ToolStripButton studentsBindingNavigatorSaveItem;
-        private System.Windows.Forms.DataGridView studentsDataGridView;
+        internal System.Windows.Forms.DataGridView studentsDataGridView;
         internal System.Windows.Forms.BindingSource bsGroupRegistry;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn2;

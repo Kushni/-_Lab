@@ -8,10 +8,10 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
-using Aspose.Cells;
-using Aspose.Cells.Utility;
-using Aspose.Words.Pdf2Word;
-using Aspose.Words;
+using Microsoft.Office.Interop.Excel;
+using Excel = Microsoft.Office.Interop.Excel;
+using Microsoft.Office.Interop.Word;
+using Word = Microsoft.Office.Interop.Word;
 
 namespace DomainModel
 {
@@ -233,9 +233,8 @@ namespace DomainModel
 
             string filename = saveFileDialog.FileName;
 
-            TakeSaveFile(filename);
-            //try
-            //{
+            try
+            {
                 switch (saveFormat)
                 {
                     case SaveFormat.bin:
@@ -248,9 +247,12 @@ namespace DomainModel
                         SaveJson(filename);
                         break;
                 }
-            //}
-            //catch { MessageBox.Show("Не вдалося зберегти інформацію у файл. Спробуйте змінити " +
-                //"засіб серіалізації або перевиберіть файл.", "Помилка", MessageBoxButtons.OK); }
+
+                TakeSaveFile(filename);
+
+            }
+            catch { MessageBox.Show("Не вдалося зберегти інформацію у файл. Спробуйте змінити " +
+                "засіб серіалізації або перевиберіть файл.", "Помилка", MessageBoxButtons.OK); }
         }
 
         public void Load()
@@ -261,8 +263,6 @@ namespace DomainModel
             if (openFileDialog.ShowDialog() == DialogResult.Cancel) return;
 
             string filename = openFileDialog.FileName;
-
-            TakeSaveFile(filename);
 
             try
             {
@@ -278,6 +278,9 @@ namespace DomainModel
                         LoadJson(filename);
                         break;
                 }
+
+                TakeSaveFile(filename);
+
             }
             catch { MessageBox.Show("Не вдалося завантажити інформацію з файлу. Спробуйте змінити " +
                 "засіб десеріалізації або перевиберіть файл.", "Помилка", MessageBoxButtons.OK); }
@@ -364,6 +367,17 @@ namespace DomainModel
 
         public void ConvertToExcel()
         {
+            Excel.Application xlApp = new Excel.ApplicationClass();
+            Excel.Workbook xlBook = xlApp.Workbooks.Add(XlWBATemplate.xlWBATWorksheet);
+            Excel.Worksheet xlSheet = (Excel.Worksheet)xlBook.Worksheets.get_Item(1);
+        }
+
+        //Виконана робота з іншою біліотекою, яка переводить файл формату json до таблиць екселю та ворду
+        //Оскільки бібліотека не підходить до лабораторної роботи, від цього рішення завдання було вирішено відмовитися.
+
+        /**
+        public void ConvertToExcel()
+        {
 
             SaveFileDialog saveFileDialog = new SaveFileDialog();
 
@@ -439,5 +453,6 @@ namespace DomainModel
         private void SaveDocument (Document document, string filename)
         {
         }
+        **/
     }
 }

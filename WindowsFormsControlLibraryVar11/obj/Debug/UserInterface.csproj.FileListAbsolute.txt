@@ -47,3 +47,5 @@ C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\WindowsFormsControlLibra
 C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\WindowsFormsControlLibraryVar11\obj\Debug\UserInteface.dll
 C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\WindowsFormsControlLibraryVar11\obj\Debug\UserInteface.pdb
 C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\WindowsFormsControlLibraryVar11\bin\Debug\Aspose.Words.Pdf2Word.dll
+C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\WindowsFormsControlLibraryVar11\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\WindowsFormsControlLibraryVar11\bin\Debug\Microsoft.Office.Interop.Word.dll

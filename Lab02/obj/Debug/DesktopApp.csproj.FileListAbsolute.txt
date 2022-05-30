@@ -29,8 +29,6 @@ C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\Lab02\bin\Debug\DesktopA
 C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\Lab02\bin\Debug\DesktopApp.pdb
 C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\Lab02\bin\Debug\DomainModel.dll
 C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\Lab02\bin\Debug\UserInteface.dll
-C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\Lab02\bin\Debug\Aspose.Cells.dll
-C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\Lab02\bin\Debug\Aspose.Words.dll
 C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\Lab02\bin\Debug\System.Text.Json.dll
 C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\Lab02\bin\Debug\System.Memory.dll
 C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\Lab02\bin\Debug\System.Text.Encodings.Web.dll
@@ -52,4 +50,6 @@ C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\Lab02\obj\Debug\DesktopA
 C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\Lab02\obj\Debug\DesktopApp.csproj.CopyComplete
 C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\Lab02\obj\Debug\DesktopApp.exe
 C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\Lab02\obj\Debug\DesktopApp.pdb
-C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\Lab02\bin\Debug\Aspose.Words.Pdf2Word.dll
+C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\Lab02\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\Lab02\bin\Debug\stdole.dll
+C:\Users\prost\OneDrive\Документи\GitHub\-_Lab\Lab02\bin\Debug\Microsoft.Office.Interop.Word.dll
